@@ -1,0 +1,29 @@
+input {
+    text-align: center;
+}
+
+.validation {
+    color: rgb(218, 14, 14);
+    display: none;
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+}
+
+li {
+    margin:10px;
+    padding: 30px;
+    border: 1px solid rgb(117, 117, 117);;
+    display: flex;
+    border-color: grey;
+    list-style-type: none;
+}
+
+.name {
+    font-style: italic;
+    color: rgb(117, 117, 117);
+}
